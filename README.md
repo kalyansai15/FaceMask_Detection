@@ -7,3 +7,9 @@ This project uses a Deep Neural Network, more specifically a Convolutional Neura
 # Datasets
 
 The dataset used can be downloaded here - <a href="https://www.kaggle.com/datasets/andrewmvd/face-mask-detection" dowload>Dowload File</a>
+<br/>
+This dataset consists of 4095 images belonging to two classes:
+
+. with_mask: 2165 images<br/>
+. without_mask: 1930 images<br/>
+
