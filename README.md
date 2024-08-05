@@ -6,4 +6,4 @@ This project uses a Deep Neural Network, more specifically a Convolutional Neura
 
 # Datasets
 
-The dataset used can be downloaded here - <a herf="https://www.kaggle.com/datasets/andrewmvd/face-mask-detection" dowload >Dowload File<a/>
+The dataset used can be downloaded here - <a herf="https://www.kaggle.com/datasets/andrewmvd/face-mask-detection" dowload>Dowload File</a>
