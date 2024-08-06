@@ -12,4 +12,3 @@ This dataset consists of 4095 images belonging to two classes:
 
 . with_mask: 2165 images<br/>
 . without_mask: 1930 images<br/>
-
