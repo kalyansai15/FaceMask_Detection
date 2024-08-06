@@ -12,3 +12,7 @@ This dataset consists of 4095 images belonging to two classes:
 
 . with_mask: 2165 images<br/>
 . without_mask: 1930 images<br/>
+
+# Project Demo
+
+![image](https://github.com/user-attachments/assets/9dcb59c4-cafe-4481-8cb6-198e3696d5ee)
