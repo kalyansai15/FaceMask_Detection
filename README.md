@@ -39,28 +39,28 @@ pip install tensorflow opencv-python keras numpy matplotlib
 
 # Steps to Install
 1. **Clone the Repository:**
-Clone this repository to your local machine using Git.
-```bash
-git clone https://github.com/kalyansai15/FaceMask_Detection.git
-cd FaceMask_Detection
-```
+    Clone this repository to your local machine using Git.
+    ```bash
+    git clone https://github.com/kalyansai15/FaceMask_Detection.git
+    cd FaceMask_Detection
+    ```
 2. **Download the Pre-trained Model:**
 
-The model has been pre-trained on a face mask dataset. You can either train it yourself or download the pre-trained weights from this <a href="https://www.kaggle.com/datasets/andrewmvd/face-mask-detection" dowload>link</a>.
+    The model has been pre-trained on a face mask dataset. You can either train it yourself or download the pre-trained weights from this <a      href="https://www.kaggle.com/datasets/andrewmvd/face-mask-detection" dowload>link</a>.
 
-This dataset consists of 4095 images belonging to two classes:
+    This dataset consists of 4095 images belonging to two classes:
 
-. with_mask: 2165 images<br/>
-. without_mask: 1930 images<br/>
+    . with_mask: 2165 images<br/>
+    . without_mask: 1930 images<br/>
 
 3. **Run the Script:**
 
-To start the face mask detection system, simply run the following script:
-```bash
-python train.py
-python test.py
-```
-This will open a webcam feed and detect face masks in real-time.
+    To start the face mask detection system, simply run the following script:
+    ```bash
+    python train.py
+    python test.py
+    ```
+    This will open a webcam feed and detect face masks in real-time.
 
 ---
 
@@ -90,16 +90,16 @@ FaceMask_Detection/
 
 # How it Works
 1. **Dataset:**
-The dataset consists of images of people wearing face masks and not wearing face masks. The images are labeled, which allows the model to learn and differentiate between the two categories during training.
+    The dataset consists of images of people wearing face masks and not wearing face masks. The images are labeled, which allows the model to learn and differentiate between the two     categories during training.
 
 2. **Model:**
-A Convolutional Neural Network (CNN) is used to classify images based on the presence of face masks. The model is trained using TensorFlow and Keras.
+    A Convolutional Neural Network (CNN) is used to classify images based on the presence of face masks. The model is trained using TensorFlow and Keras.
 
 3. **Real-time Detection:**
-Once trained, the model is used to process images or video streams. When a face is detected in the frame, the model classifies it as "Mask" or "No Mask" and draws a bounding box around the face, indicating the mask status.
+    Once trained, the model is used to process images or video streams. When a face is detected in the frame, the model classifies it as "Mask" or "No Mask" and draws a bounding box around the face, indicating the mask status.
 
 4. **Result:**
-The system continuously shows the real-time video feed with feedback on whether the individual is wearing a mask or not.
+    The system continuously shows the real-time video feed with feedback on whether the individual is wearing a mask or not.
 
 --- 
 
