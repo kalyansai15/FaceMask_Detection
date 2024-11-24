@@ -71,21 +71,6 @@ pip install tensorflow opencv-python keras numpy matplotlib
 - ** NumPy: For numerical operations and array handling.
 - ** Matplotlib: For visualizing results (optional).
 
-# Folder Structure
-```plaintext 
-FaceMask_Detection/
-│
-├── dataset/                  # Dataset of images for training (masked vs unmasked)
-├── model/                    # Trained model weights and architecture
-├── scripts/                  # Python scripts for training and testing
-│   ├── detect_mask_video.py  # Script for real-time mask detection
-│   ├── train_model.py        # Script for training the face mask detection model
-│   └── utils.py              # Utility functions for model training and testing
-│
-├── README.md                 # This file
-└── requirements.txt          # Python dependencies
-```
-
 ---
 
 # How it Works
